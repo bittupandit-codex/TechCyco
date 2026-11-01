@@ -14,10 +14,43 @@
   <main>
     <section class="product-hero">
       <div class="product-hero-copy"><p class="breadcrumb"><a href="../../index.html">Home</a> &nbsp; / &nbsp; Wearables</p><p class="eyebrow"><span class="eyebrow-dot"></span> YOUR DAY, IN SYNC</p><h1>Nova <span>Smartwatch</span></h1><p class="product-lede">A little clarity for your busy day. Nova keeps your everyday essentials close, with a look that goes wherever you do.</p><div class="product-meta"><strong class="product-price">₹2,499</strong><span class="product-review"><b>★★★★★</b> &nbsp; Everyday favourite</span></div><div class="product-actions"><button class="button button-dark" type="button" data-buy-product="product1">Buy now <span aria-hidden="true">↗</span></button><a class="button button-outline" href="#order">Order now</a></div></div>
-      <div class="product-visual"><img src="../../images/product1.svg" alt="Nova Smartwatch in midnight black"></div>
+      <div class="product-gallery" data-product-gallery role="region" aria-label="Product images" aria-roledescription="carousel">
+        <div class="product-visual" data-gallery-stage tabindex="0" aria-label="Product image. Use the arrow buttons or swipe to browse.">
+          <img data-gallery-main src="../../images/psun106_1.jpeg" alt="Product image 1 of 5">
+          <button class="gallery-arrow gallery-previous" type="button" data-gallery-previous aria-label="Previous image"><span aria-hidden="true">‹</span></button>
+          <button class="gallery-arrow gallery-next" type="button" data-gallery-next aria-label="Next image"><span aria-hidden="true">›</span></button>
+        </div>
+        <div class="product-gallery-thumbnails" role="group" aria-label="Choose a product image">
+          <button type="button" class="gallery-thumbnail is-active" data-gallery-index="0" data-image-src="../../images/psun106_1.jpeg" data-image-alt="Product image 1 of 5" aria-label="Show image 1 of 5" aria-pressed="true"><img src="../../images/psun106_1.jpeg" alt=""></button>
+          <button type="button" class="gallery-thumbnail" data-gallery-index="1" data-image-src="../../images/psun106_2.jpeg" data-image-alt="Product image 2 of 5" aria-label="Show image 2 of 5" aria-pressed="false"><img src="../../images/psun106_2.jpeg" alt=""></button>
+          <button type="button" class="gallery-thumbnail" data-gallery-index="2" data-image-src="../../images/product1-gallery-3.png" data-image-alt="Product image 3 of 5" aria-label="Show image 3 of 5" aria-pressed="false"><img src="../../images/product1-gallery-3.png" alt=""></button>
+          <button type="button" class="gallery-thumbnail" data-gallery-index="3" data-image-src="../../images/product1-gallery-4.png" data-image-alt="Product image 4 of 5" aria-label="Show image 4 of 5" aria-pressed="false"><img src="../../images/product1-gallery-4.png" alt=""></button>
+          <button type="button" class="gallery-thumbnail" data-gallery-index="4" data-image-src="../../images/product1-gallery-5.png" data-image-alt="Product image 5 of 5" aria-label="Show image 5 of 5" aria-pressed="false"><img src="../../images/product1-gallery-5.png" alt=""></button>
+        </div>
+        <p class="gallery-status" data-gallery-status aria-live="polite">Image 1 of 5</p>
+      </div>
     </section>
     <section class="product-highlights"><div class="highlight">Everyday ready<span>Made to go wherever you do</span></div><div class="highlight">Comfort first<span>Easy to wear all day</span></div><div class="highlight">Your style, your way<span>A clean, versatile look</span></div></section>
-    <section class="product-details"><p class="eyebrow">MEET YOUR NEW EVERYDAY</p><h2>A little more in sync with you.</h2><p>From the first thing on your calendar to the last thing on your list, Nova is a simple, stylish companion for the everyday moments that matter. Choose Nova below and tell us where to send it.</p></section>
+    <section class="all-details-section" data-all-details>
+      <button class="all-details-toggle" id="all-details-toggle" type="button" aria-expanded="false" aria-controls="all-details-content">
+        <span>All Details</span>
+        <svg class="all-details-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="all-details-content" id="all-details-content" aria-hidden="true" inert>
+        <div class="all-details-inner">
+          <div class="details-tabs" role="tablist" aria-label="Product details">
+            <button class="details-tab is-active" id="details-tab-specifications" type="button" role="tab" aria-selected="true" aria-controls="details-panel-specifications" tabindex="0" data-details-tab="specifications">Specifications</button>
+            <button class="details-tab" id="details-tab-description" type="button" role="tab" aria-selected="false" aria-controls="details-panel-description" tabindex="-1" data-details-tab="description">Description</button>
+            <button class="details-tab" id="details-tab-manufacturer" type="button" role="tab" aria-selected="false" aria-controls="details-panel-manufacturer" tabindex="-1" data-details-tab="manufacturer">Manufacturer Info</button>
+          </div>
+          <div class="details-panels">
+            <section class="details-panel is-active" id="details-panel-specifications" role="tabpanel" aria-labelledby="details-tab-specifications" data-details-panel="specifications"></section>
+            <section class="details-panel" id="details-panel-description" role="tabpanel" aria-labelledby="details-tab-description" data-details-panel="description" hidden></section>
+            <section class="details-panel" id="details-panel-manufacturer" role="tabpanel" aria-labelledby="details-tab-manufacturer" data-details-panel="manufacturer" hidden></section>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="order-section section-wrap" id="order"><div class="order-intro"><p class="eyebrow">A GOOD CHOICE, JUST A MESSAGE AWAY</p><h2>Let’s get your<br><span>new favourite.</span></h2><p>Tell us where to send it. Your order details will open in WhatsApp, ready to send to our team.</p><div class="order-help"><span class="help-icon">↗</span><span><strong>Questions before ordering?</strong><small>Our team is one WhatsApp message away.</small></span></div></div>
       <form class="order-form" data-order-form><div class="form-heading"><div><span class="form-step">YOUR DETAILS</span><h3>Where should we send it?</h3></div><span class="form-spark">✳</span></div>
         <div class="form-grid">
@@ -47,6 +80,6 @@
       <nav class="footer-column" aria-label="Follow Us"><h2>Follow Us</h2><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a><a href="https://wa.me/918271734883" target="_blank" rel="noopener noreferrer">WhatsApp</a></nav>
     </div>
   </footer>
-  <script src="script.js"></script><script src="../../js/script.js"></script>
+  <script src="script.js"></script><script src="../../js/script.js"></script><script src="../../js/product-details.js"></script>
 </body>
 </html>
