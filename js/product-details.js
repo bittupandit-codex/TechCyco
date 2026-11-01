@@ -12,6 +12,25 @@
         { title: "Comfort first", detail: "Easy to wear all day" },
         { title: "Your style, your way", detail: "A clean, versatile look" }
       ],
+      highlights: [
+        { label: "Product", value: "Nova Smartwatch" },
+        { label: "Product type", value: "Smartwatch" },
+        { label: "Category", value: "Wearables" },
+        { label: "Price", value: "₹2,499" },
+        { label: "Key features", value: "Everyday ready — Made to go wherever you do; Comfort first — Easy to wear all day; Your style, your way — A clean, versatile look" },
+        { label: "Usage / purpose", value: "An everyday companion for your busy day." }
+      ],
+      faqs: [
+        { question: "What are the main features of the Nova Smartwatch?", answer: "It is presented as an everyday smartwatch with a versatile look and a comfortable design." },
+        { question: "Is this smartwatch suitable for everyday use?", answer: "Yes. Nova is described as an everyday companion for your busy day." },
+        { question: "What is the battery backup?", answer: "Battery life is not specified in the product information. Please contact support to confirm before ordering.", linkText: "Contact support", href: "support" },
+        { question: "Is it compatible with Android and iOS?", answer: "Phone compatibility is not specified in the product information. Please contact support to confirm before ordering.", linkText: "Contact support", href: "support" },
+        { question: "What is included in the package?", answer: "The package contents are not listed. Please contact support to confirm what is included.", linkText: "Contact support", href: "support" },
+        { question: "Does this product come with a warranty?", answer: "Warranty information is not specified. Please confirm the applicable seller terms before purchase or contact support.", linkText: "Contact support", href: "support" },
+        { question: "What is the estimated delivery time?", answer: "The delivery estimate depends on the product, seller and destination. Check the estimate shown or confirmed before purchase.", linkText: "Read the shipping policy", href: "shipping" },
+        { question: "Can I return or replace this product?", answer: "Eligibility and time limits depend on the product and seller. Check the applicable seller terms; a refund or replacement is not guaranteed.", linkText: "Read the return policy", href: "returns" },
+        { question: "How can I contact customer support?", answer: "Message Techcyco on WhatsApp for help with product or order questions.", linkText: "WhatsApp: +91 82717 34883", href: "support" }
+      ],
       description: [
         { title: "Product introduction", text: "A little clarity for your busy day. Nova keeps your everyday essentials close, with a look that goes wherever you do." },
         { title: "Key features", list: ["Made to go wherever you do", "Easy to wear all day", "A clean, versatile look"] },
@@ -25,6 +44,25 @@
       category: "Audio",
       price: "₹1,799",
       features: [],
+      highlights: [
+        { label: "Product", value: "Pulse Earbuds" },
+        { label: "Product type", value: "Wireless earbuds" },
+        { label: "Category", value: "Audio" },
+        { label: "Price", value: "₹1,799" },
+        { label: "Key feature", value: "Wireless everyday audio" },
+        { label: "Usage / purpose", value: "Enjoy your favourite music wherever the day takes you." }
+      ],
+      faqs: [
+        { question: "What are the main features of Pulse Earbuds?", answer: "Pulse is described as wireless everyday audio for enjoying music wherever the day takes you." },
+        { question: "Does it have a built-in microphone?", answer: "A microphone is not specified in the product information. Please contact support to confirm before ordering.", linkText: "Contact support", href: "support" },
+        { question: "What is the battery backup?", answer: "Battery life is not specified in the product information. Please contact support to confirm before ordering.", linkText: "Contact support", href: "support" },
+        { question: "Is a charging case included?", answer: "The package contents are not listed. Please contact support to confirm whether a charging case is included.", linkText: "Contact support", href: "support" },
+        { question: "What Bluetooth version does it support?", answer: "The Bluetooth version is not specified in the product information. Please contact support to confirm before ordering.", linkText: "Contact support", href: "support" },
+        { question: "Does this product come with a warranty?", answer: "Warranty information is not specified. Please confirm the applicable seller terms before purchase or contact support.", linkText: "Contact support", href: "support" },
+        { question: "What is the estimated delivery time?", answer: "The delivery estimate depends on the product, seller and destination. Check the estimate shown or confirmed before purchase.", linkText: "Read the shipping policy", href: "shipping" },
+        { question: "Can I return or replace this product?", answer: "Eligibility and time limits depend on the product and seller. Check the applicable seller terms; a refund or replacement is not guaranteed.", linkText: "Read the return policy", href: "returns" },
+        { question: "How can I contact customer support?", answer: "Message Techcyco on WhatsApp for help with product or order questions.", linkText: "WhatsApp: +91 82717 34883", href: "support" }
+      ],
       description: [
         { title: "Product introduction", text: "Enjoy your favourite music wherever the day takes you." },
         { title: "Key features", list: ["Wireless everyday audio"] }
@@ -39,6 +77,25 @@
         { title: "Take the good vibes", detail: "Made to move with you" },
         { title: "Share the sound", detail: "For your favourite people" },
         { title: "Make a moment", detail: "Press play, be present" }
+      ],
+      highlights: [
+        { label: "Product", value: "Boom Speaker" },
+        { label: "Product type", value: "Portable Bluetooth speaker" },
+        { label: "Category", value: "Sound" },
+        { label: "Price", value: "₹2,999" },
+        { label: "Key features", value: "Take the good vibes — Made to move with you; Share the sound — For your favourite people; Make a moment — Press play, be present" },
+        { label: "Usage / purpose", value: "An easy companion for slow Sundays, spontaneous plans and every playlist that feels like you." }
+      ],
+      faqs: [
+        { question: "What are the main features of Boom Speaker?", answer: "It is described as a portable Bluetooth speaker made to move with you and share music with others." },
+        { question: "Is this speaker suitable for everyday use?", answer: "The product description presents Boom as a portable companion for everyday plans and listening moments." },
+        { question: "Does it support Bluetooth connectivity?", answer: "The product type is listed as a portable Bluetooth speaker. The Bluetooth version is not specified." },
+        { question: "What is the battery backup?", answer: "Battery life is not specified in the product information. Please contact support to confirm before ordering.", linkText: "Contact support", href: "support" },
+        { question: "What is included in the package?", answer: "The package contents are not listed. Please contact support to confirm what is included.", linkText: "Contact support", href: "support" },
+        { question: "Does this product come with a warranty?", answer: "Warranty information is not specified. Please confirm the applicable seller terms before purchase or contact support.", linkText: "Contact support", href: "support" },
+        { question: "What is the estimated delivery time?", answer: "The delivery estimate depends on the product, seller and destination. Check the estimate shown or confirmed before purchase.", linkText: "Read the shipping policy", href: "shipping" },
+        { question: "Can I return or replace this product?", answer: "Eligibility and time limits depend on the product and seller. Check the applicable seller terms; a refund or replacement is not guaranteed.", linkText: "Read the return policy", href: "returns" },
+        { question: "How can I contact customer support?", answer: "Message Techcyco on WhatsApp for help with product or order questions.", linkText: "WhatsApp: +91 82717 34883", href: "support" }
       ],
       description: [
         { title: "Product introduction", text: "From kitchen dance breaks to sunset catch-ups, Boom brings your favourite sounds along for the good moments." },
@@ -56,6 +113,26 @@
         { title: "Plans, uninterrupted", detail: "A little backup goes far" },
         { title: "Ready to roam", detail: "Keep your day moving" },
         { title: "Power on your terms", detail: "Charge when you need it" }
+      ],
+      highlights: [
+        { label: "Product", value: "Volt Power Bank" },
+        { label: "Product type", value: "Portable power bank" },
+        { label: "Category", value: "Power" },
+        { label: "Price", value: "₹1,499" },
+        { label: "Key features", value: "Plans, uninterrupted — A little backup goes far; Ready to roam — Keep your day moving; Power on your terms — Charge when you need it" },
+        { label: "Usage / purpose", value: "Keep your plans moving and your phone ready." }
+      ],
+      faqs: [
+        { question: "What are the main features of Volt Power Bank?", answer: "Volt is described as portable backup power to help keep your phone ready while you are out." },
+        { question: "What is its battery capacity?", answer: "Battery capacity is not specified in the product information. Please contact support to confirm before ordering.", linkText: "Contact support", href: "support" },
+        { question: "Does it support fast charging?", answer: "Fast-charging support is not specified. Please contact support to confirm before ordering.", linkText: "Contact support", href: "support" },
+        { question: "Which charging ports are available?", answer: "The available input and output ports are not specified. Please contact support to confirm before ordering.", linkText: "Contact support", href: "support" },
+        { question: "How many devices can it charge?", answer: "The number of supported devices is not specified. Please contact support to confirm before ordering.", linkText: "Contact support", href: "support" },
+        { question: "What is included in the package?", answer: "The package contents are not listed. Please contact support to confirm what is included.", linkText: "Contact support", href: "support" },
+        { question: "Does this product come with a warranty?", answer: "Warranty information is not specified. Please confirm the applicable seller terms before purchase or contact support.", linkText: "Contact support", href: "support" },
+        { question: "What is the estimated delivery time?", answer: "The delivery estimate depends on the product, seller and destination. Check the estimate shown or confirmed before purchase.", linkText: "Read the shipping policy", href: "shipping" },
+        { question: "Can I return or replace this product?", answer: "Eligibility and time limits depend on the product and seller. Check the applicable seller terms; a refund or replacement is not guaranteed.", linkText: "Read the return policy", href: "returns" },
+        { question: "How can I contact customer support?", answer: "Message Techcyco on WhatsApp for help with product or order questions.", linkText: "WhatsApp: +91 82717 34883", href: "support" }
       ],
       description: [
         { title: "Product introduction", text: "Keep your plans moving and your phone ready. Volt brings a little extra peace of mind wherever your day takes you." },
@@ -147,6 +224,71 @@
     panel.append(list);
   };
 
+  const renderProductHighlights = (panel, highlights) => {
+    highlights.forEach(({ label, value }) => {
+      if (typeof value !== "string" || !value.trim()) return;
+      const item = createElement("div", "product-highlight-item");
+      item.append(
+        createElement("dt", "", label),
+        createElement("dd", "", value)
+      );
+      panel.append(item);
+    });
+  };
+
+  const renderFaqs = (list, faqs) => {
+    faqs.forEach((faq, index) => {
+      const item = createElement("article", "product-faq-item");
+      const questionId = `product-faq-question-${index + 1}`;
+      const answerId = `product-faq-answer-${index + 1}`;
+      const question = createElement("button", "product-faq-question", faq.question);
+      question.type = "button";
+      question.id = questionId;
+      question.setAttribute("aria-expanded", "false");
+      question.setAttribute("aria-controls", answerId);
+      const chevron = createElement("svg", "product-faq-chevron");
+      chevron.setAttribute("viewBox", "0 0 24 24");
+      chevron.setAttribute("aria-hidden", "true");
+      chevron.append(createElement("path"));
+      chevron.firstElementChild.setAttribute("d", "m6 9 6 6 6-6");
+      question.append(chevron);
+
+      const answer = createElement("div", "product-faq-answer");
+      answer.id = answerId;
+      answer.setAttribute("role", "region");
+      answer.setAttribute("aria-labelledby", questionId);
+      answer.setAttribute("aria-hidden", "true");
+      answer.inert = true;
+      const answerInner = createElement("div", "product-faq-answer-inner");
+      answerInner.append(createElement("p", "", faq.answer));
+
+      if (faq.linkText && faq.href) {
+        const link = createElement("a", "product-faq-link", faq.linkText);
+        if (faq.href === "support") {
+          link.href = customerCare.href;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+        } else {
+          link.href = faq.href === "shipping"
+            ? "../../pages/shipping-policy/index.html"
+            : "../../pages/return-refund/index.html";
+        }
+        answerInner.append(link);
+      }
+
+      answer.append(answerInner);
+      question.addEventListener("click", () => {
+        const isExpanded = question.getAttribute("aria-expanded") !== "true";
+        question.setAttribute("aria-expanded", String(isExpanded));
+        answer.setAttribute("aria-hidden", String(!isExpanded));
+        answer.inert = !isExpanded;
+        answer.classList.toggle("is-expanded", isExpanded);
+      });
+      item.append(question, answer);
+      list.append(item);
+    });
+  };
+
   const section = document.querySelector("[data-all-details]");
   if (!section) return;
 
@@ -167,6 +309,40 @@
   renderSpecifications(specificationsPanel, product);
   renderDescription(descriptionPanel, product.description);
   renderManufacturerInfo(manufacturerPanel, product);
+
+  const highlightsSection = document.querySelector("[data-product-highlights]");
+  const highlightsToggle = highlightsSection?.querySelector("[data-product-highlights-toggle]");
+  const highlightsContent = highlightsSection?.querySelector("[data-product-highlights-content]");
+  const highlightsList = highlightsSection?.querySelector("[data-product-highlights-list]");
+  if (!highlightsSection || !highlightsToggle || !highlightsContent || !highlightsList) {
+    console.error("Product highlights are unavailable on this product page.");
+  } else {
+    renderProductHighlights(highlightsList, product.highlights);
+    highlightsToggle.addEventListener("click", () => {
+      const isExpanded = highlightsToggle.getAttribute("aria-expanded") !== "true";
+      highlightsToggle.setAttribute("aria-expanded", String(isExpanded));
+      highlightsContent.setAttribute("aria-hidden", String(!isExpanded));
+      highlightsContent.inert = !isExpanded;
+      highlightsContent.classList.toggle("is-expanded", isExpanded);
+    });
+  }
+
+  const faqSection = document.querySelector("[data-product-faq]");
+  const faqToggle = faqSection?.querySelector("[data-product-faq-toggle]");
+  const faqContent = faqSection?.querySelector("[data-product-faq-content]");
+  const faqList = faqSection?.querySelector("[data-product-faq-list]");
+  if (!faqSection || !faqToggle || !faqContent || !faqList) {
+    console.error("Product FAQs are unavailable on this product page.");
+  } else {
+    renderFaqs(faqList, product.faqs);
+    faqToggle.addEventListener("click", () => {
+      const isExpanded = faqToggle.getAttribute("aria-expanded") !== "true";
+      faqToggle.setAttribute("aria-expanded", String(isExpanded));
+      faqContent.setAttribute("aria-hidden", String(!isExpanded));
+      faqContent.inert = !isExpanded;
+      faqContent.classList.toggle("is-expanded", isExpanded);
+    });
+  }
 
   toggle.addEventListener("click", () => {
     const isExpanded = toggle.getAttribute("aria-expanded") !== "true";

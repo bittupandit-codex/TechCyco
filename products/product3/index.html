@@ -14,9 +14,22 @@
   <main>
     <section class="product-hero">
       <div class="product-hero-copy"><p class="breadcrumb"><a href="../../index.html">Home</a> &nbsp; / &nbsp; Sound</p><p class="eyebrow"><span class="eyebrow-dot"></span> BRING YOUR OWN ATMOSPHERE</p><h1>Boom <span>Speaker</span></h1><p class="product-lede">From kitchen dance breaks to sunset catch-ups, Boom brings your favourite sounds along for the good moments.</p><div class="product-meta"><strong class="product-price">₹2,999</strong><span class="product-review"><b>★★★★★</b> &nbsp; Good times, amplified</span></div><div class="product-actions"><button class="button button-dark" type="button" data-buy-product="product3">Buy now <span aria-hidden="true">↗</span></button><a class="button button-outline" href="#order">Order now</a></div></div>
-      <div class="product-visual"><img src="../../images/product3.svg" alt="Boom portable Bluetooth speaker"></div>
+      <div class="product-gallery" data-product-gallery role="region" aria-label="Product images" aria-roledescription="carousel">
+        <div class="product-visual" data-gallery-stage tabindex="0" aria-label="Product image. Use the arrow buttons or swipe to browse.">
+          <img data-gallery-main src="../../images/product3.svg" alt="Boom portable Bluetooth speaker">
+          <button class="gallery-arrow gallery-previous" type="button" data-gallery-previous aria-label="Previous image"><span aria-hidden="true">‹</span></button>
+          <button class="gallery-arrow gallery-next" type="button" data-gallery-next aria-label="Next image"><span aria-hidden="true">›</span></button>
+        </div>
+        <div class="product-gallery-thumbnails" role="group" aria-label="Choose a product image">
+          <button type="button" class="gallery-thumbnail is-active" data-gallery-index="0" data-image-src="../../images/product3.svg" data-image-alt="Boom Speaker full view" data-image-scale="1" data-image-focus="50% 50%" aria-label="Show image 1 of 5" aria-pressed="true"><img src="../../images/product3.svg" alt=""></button>
+          <button type="button" class="gallery-thumbnail" data-gallery-index="1" data-image-src="../../images/product3.svg" data-image-alt="Boom Speaker close-up, upper view" data-image-scale="1.45" data-image-focus="50% 28%" aria-label="Show image 2 of 5" aria-pressed="false"><img src="../../images/product3.svg" alt=""></button>
+          <button type="button" class="gallery-thumbnail" data-gallery-index="2" data-image-src="../../images/product3.svg" data-image-alt="Boom Speaker close-up, lower view" data-image-scale="1.45" data-image-focus="50% 70%" aria-label="Show image 3 of 5" aria-pressed="false"><img src="../../images/product3.svg" alt=""></button>
+          <button type="button" class="gallery-thumbnail" data-gallery-index="3" data-image-src="../../images/product3.svg" data-image-alt="Boom Speaker close-up, left view" data-image-scale="1.45" data-image-focus="30% 50%" aria-label="Show image 4 of 5" aria-pressed="false"><img src="../../images/product3.svg" alt=""></button>
+          <button type="button" class="gallery-thumbnail" data-gallery-index="4" data-image-src="../../images/product3.svg" data-image-alt="Boom Speaker close-up, right view" data-image-scale="1.45" data-image-focus="70% 50%" aria-label="Show image 5 of 5" aria-pressed="false"><img src="../../images/product3.svg" alt=""></button>
+        </div>
+        <p class="gallery-status" data-gallery-status aria-live="polite">Image 1 of 5</p>
+      </div>
     </section>
-    <section class="product-highlights"><div class="highlight">Take the good vibes<span>Made to move with you</span></div><div class="highlight">Share the sound<span>For your favourite people</span></div><div class="highlight">Make a moment<span>Press play, be present</span></div></section>
     <section class="all-details-section" data-all-details>
       <button class="all-details-toggle" id="all-details-toggle" type="button" aria-expanded="false" aria-controls="all-details-content">
         <span>All Details</span>
@@ -35,6 +48,24 @@
             <section class="details-panel" id="details-panel-manufacturer" role="tabpanel" aria-labelledby="details-tab-manufacturer" data-details-panel="manufacturer" hidden></section>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="product-highlights-accordion" data-product-highlights>
+      <button class="product-highlights-toggle" type="button" data-product-highlights-toggle aria-expanded="false" aria-controls="product-highlights-content">
+        <span class="product-highlights-heading"><strong>Product Highlights</strong><span>Key features, specifications, usage, and more</span></span>
+        <svg class="product-highlights-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="product-highlights-content" id="product-highlights-content" data-product-highlights-content aria-hidden="true" inert>
+        <dl class="product-highlights-grid" data-product-highlights-list></dl>
+      </div>
+    </section>
+    <section class="product-faq-section" data-product-faq>
+      <button class="product-faq-toggle" type="button" data-product-faq-toggle aria-expanded="false" aria-controls="product-faq-content">
+        <span class="product-faq-heading"><strong>Frequently Asked Questions</strong><span>Find answers to common questions about this product.</span></span>
+        <svg class="product-faq-section-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </button>
+      <div class="product-faq-content" id="product-faq-content" data-product-faq-content aria-hidden="true" inert>
+        <div class="product-faq-list" data-product-faq-list></div>
       </div>
     </section>
     <section class="order-section section-wrap" id="order"><div class="order-intro"><p class="eyebrow">A GOOD CHOICE, JUST A MESSAGE AWAY</p><h2>Let’s get your<br><span>new favourite.</span></h2><p>Tell us where to send it. Your order details will open in WhatsApp, ready to send to our team.</p><div class="order-help"><span class="help-icon">↗</span><span><strong>Questions before ordering?</strong><small>Our team is one WhatsApp message away.</small></span></div></div>
@@ -57,6 +88,25 @@
       </form>
     </section>
   </main>
+  <section class="affiliate-strip" aria-label="Affiliate partners">
+    <p>Techcyco is affiliated with</p>
+    <div class="affiliate-marquee">
+      <div class="affiliate-track">
+        <span class="affiliate-logo-group">
+          <img src="../../images/affiliated_amazon.jpeg" alt="Amazon">
+          <img src="../../images/affiliated_fliptkard.jpeg" alt="Flipkart">
+          <img src="../../images/affiliated_meesho.jpeg" alt="Meesho">
+          <img src="../../images/affiliated_mytra.jpeg" alt="Myntra">
+        </span>
+        <span class="affiliate-logo-group" aria-hidden="true">
+          <img src="../../images/affiliated_amazon.jpeg" alt="">
+          <img src="../../images/affiliated_fliptkard.jpeg" alt="">
+          <img src="../../images/affiliated_meesho.jpeg" alt="">
+          <img src="../../images/affiliated_mytra.jpeg" alt="">
+        </span>
+      </div>
+    </div>
+  </section>
   <footer class="site-footer">
     <div class="footer-main">
       <section class="footer-about" id="about"><a class="brand" href="../../index.html" aria-label="Techcyco home"><img src="../../images/techcyco-logo.png" alt="TechCyco"></a><h2>Smart Shopping.<br>Better Choices.</h2><p>Discover watches, belts, jewellery, sunglasses and other thoughtful everyday finds.</p></section>
@@ -66,6 +116,6 @@
       <nav class="footer-column" aria-label="Follow Us"><h2>Follow Us</h2><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YouTube</a><a href="https://wa.me/918271734883" target="_blank" rel="noopener noreferrer">WhatsApp</a></nav>
     </div>
   </footer>
-  <script src="script.js"></script><script src="../../js/script.js"></script><script src="../../js/product-details.js"></script>
+  <script src="script.js"></script><script src="../../js/product-gallery.js"></script><script src="../../js/script.js"></script><script src="../../js/product-details.js"></script>
 </body>
 </html>
