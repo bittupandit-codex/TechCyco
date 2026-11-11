@@ -10,10 +10,10 @@
   const whatsappNumber = "918271734883";
 
   const heroSlides = [
-    { image: "images/indeximg2.jpeg", name: "Meet Nova", description: "Your day, in sync.", alt: "Nova smartwatch", product: "product1" },
-    { image: "images/psun106_1.jpeg", name: "Meet Pulse", description: "Your soundtrack, untangled.", alt: "Pulse wireless earbuds", product: "product2" },
-    { image: "images/indeximg2.jpeg", name: "Meet Boom", description: "Bring your own atmosphere.", alt: "Boom portable speaker", product: "product3" },
-    { image: "images/psun106_2.jpeg", name: "Meet Volt", description: "Stay out. Stay charged.", alt: "Volt power bank", product: "product4" }
+    { image: "images/indexImge/imagewatch.png", name: "Nova Pro Smartwatch", description: "Experience style and smart technology with the Nova Pro Smartwatch. Featuring a premium round dial, stylish black strap, vibrant touchscreen display, and a modern design. Perfect for everyday wear, fitness activities, office, and casual outings.", alt: "Nova smartwatch", product: "product1" },
+    { image: "images/indexImge/Braceletimg.png", name: "Men's Premium Black & Silver Bracelet Collection", description: "Upgrade your everyday style with our premium men's bracelet collection. Featuring stylish black braided bands, elegant black beads, a golden crown charm, a silver chain design and a modern multi-layer bracelet. Perfect for casual wear, parties and special occasions.", alt: "Bracelet", product: "product2" },
+    { image: "images/indexImge/sunglassesimgindex.png", name: "Men's Premium Black Square Sunglasses ", description: "Upgrade your everyday look with these stylish black square sunglasses. Featuring a bold black frame, dark tinted lenses and elegant golden side details, they offer a modern and sophisticated fashion statement. Perfect for casual outings, travel and everyday styling.", alt: "Sunglasses", product: "product3" },
+    { image: "images/indexImge/Braceletimg.png", name: "Nova Pro Smartwatch", description: "Experience style and smart technology with the Nova Pro Smartwatch. Featuring a premium round dial, stylish black strap, vibrant touchscreen display, and a modern design. Perfect for everyday wear, fitness activities, office, and casual outings.", alt: "Nova Pro Smartwatch", product: "product4" }
   ];
   const heroImage = document.querySelector(".hero-art img");
   if (heroImage && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
